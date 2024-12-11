@@ -1,26 +1,21 @@
 # Mean Reversion Trading Strategy
 
-A systematic trading algorithm that identifies and trades temporary price dislocations in the US equity market.
+A systematic trading algorithm implementing statistical arbitrage principles in Python.
 
 ## Strategy Overview
-- Investment Thesis: Mean reversion in stock returns
-- Long/Short equity strategy with dollar neutrality
-- Risk management through position sizing limits
-- Automated portfolio optimization
+- Identifies temporary price dislocations in markets
+- Implements dollar-neutral long/short positions
+- Uses z-score analysis for stock selection
+- Features adaptive risk management
 
-## Features
-- Dynamic stock selection using statistical analysis
-- Modern portfolio theory implementation
-- Systematic risk management framework
-- Automated execution system
+## Technical Implementation
+- Statistical arbitrage using Python
+- Dynamic position sizing
+- Portfolio optimization
+- Real-time risk monitoring
 
-## Requirements
-- Python 3.x
-- pandas
-- numpy
-- Other required libraries
-
-## Performance Metrics
-- Consistent risk-adjusted returns
-- Sharpe ratio ~0.8
-- Double-digit annual returns
+## Performance Highlights
+- Sharpe Ratio: ~0.8
+- Annual Returns: Double-digit
+- Beta-neutral exposure
+- Controlled drawdowns
