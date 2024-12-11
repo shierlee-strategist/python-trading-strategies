@@ -1,21 +1,33 @@
 # Mean Reversion Trading Strategy
 
-A systematic trading algorithm implementing statistical arbitrage principles in Python.
+A sophisticated algorithmic trading system implementing statistical arbitrage principles using Python, designed for modern markets including traditional equities and crypto assets.
 
 ## Strategy Overview
-- Identifies temporary price dislocations in markets
-- Implements dollar-neutral long/short positions
-- Uses z-score analysis for stock selection
-- Features adaptive risk management
 
-## Technical Implementation
-- Statistical arbitrage using Python
-- Dynamic position sizing
-- Portfolio optimization
-- Real-time risk monitoring
+#### Core Principles
+- **Mean Reversion Theory**: Exploits temporary price dislocations in markets
+- **Statistical Arbitrage**: Implements dollar-neutral long/short positions
+- **Systematic Selection**: Uses z-score analysis for quantitative stock selection
+- **Risk Management**: Features adaptive position sizing and exposure controls
 
-## Performance Highlights
-- Sharpe Ratio: ~0.8
-- Annual Returns: Double-digit
-- Beta-neutral exposure
-- Controlled drawdowns
+#### Technical Implementation
+- **Python-Based Architecture**: Built with modern Python libraries
+- **Dynamic Position Sizing**: Adjusts positions based on volatility and market conditions
+- **Portfolio Optimization**: Implements constraints for balanced exposure
+- **Real-Time Monitoring**: Includes performance and risk metrics tracking
+
+#### Key Features
+- Market regime detection
+- Volatility-adjusted position sizing
+- Multi-asset class compatibility
+- Automated risk controls
+
+## Performance Metrics
+- **Sharpe Ratio**: ~0.8
+- **Annual Returns**: Double-digit target
+- **Beta Exposure**: Market neutral design
+- **Maximum Drawdown**: Controlled through position limits
+
+## Installation
+```bash
+pip install -r requirements.txt
