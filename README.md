@@ -31,3 +31,18 @@ A sophisticated algorithmic trading system implementing statistical arbitrage pr
 ## Installation
 ```bash
 pip install -r requirements.txt
+
+Risk Management
+Position size limits
+Dollar neutrality
+Stop-loss implementation
+Volatility scaling
+Future Enhancements
+Machine learning integration
+Crypto market adaptation
+Real-time execution capabilities
+Advanced visualization tools
+Contributing
+Contributions welcome! Please read the contribution guidelines first.
+License
+MIT License - see LICENSE.md for details
