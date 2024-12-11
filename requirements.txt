@@ -1,0 +1,43 @@
+pandas>=1.0.0
+numpy>=1.18.0
+matplotlib>=3.0.0
+scipy>=1.4.0
+
+def calculate_metrics(returns):
+    """
+    Calculate key performance metrics
+    """
+    sharpe = returns.mean() / returns.std() * np.sqrt(252)
+    max_drawdown = (returns.cumsum() - returns.cumsum().cummax()).min()
+    return {
+        'sharpe_ratio': sharpe,
+        'max_drawdown': max_drawdown,
+        'annual_return': returns.mean() * 252
+    }
+
+## Crypto Market Adaptations
+
+This strategy can be adapted for crypto markets by:
+- Adjusting for 24/7 trading
+- Implementing volume-weighted position sizing
+- Adding volatility scaling for crypto assets
+- Considering market depth in execution
+
+def plot_performance(returns, positions):
+    """
+    Generate performance visualizations
+    """
+    plt.figure(figsize=(12,8))
+    plt.plot(returns.cumsum())
+    plt.title('Cumulative Strategy Returns')
+    plt.show()
+
+python-trading-strategies/
+├── README.md
+├── requirements.txt
+├── mean_reversion_strategy.py
+├── performance_analysis.py
+├── visualizations.py
+├── crypto_adaptation.md
+└── backtest_results/
+    └── performance_metrics.png
